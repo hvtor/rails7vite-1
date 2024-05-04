@@ -28,7 +28,7 @@ gem "bootsnap", require: false
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
-gem 'sqlite3' # Change this, if you need other databases
+gem 'sqlite3', '~> 1.4', '>= 1.4.4'
 gem 'mongoid', '~> 8.0.2'
 
 group :development, :test do
